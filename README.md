@@ -1,10 +1,19 @@
-# ProjectAnalyzer
+# EmotionsDetection Dataset
 
-**ProjectAnalyzer** is a lightweight tool designed to analyze and assess projects effectively. This repository provides a structured approach to evaluate project performance, identify risks, and improve outcomes.
+**EmotionsDetection Dataset** is a text-based dataset curated for emotion detection tasks. This dataset is ideal for training and testing machine learning models aimed at understanding and analyzing human emotions from textual data.
+
+## Dataset Details
+- **Data Type:** Short text samples (e.g., comments, messages, tweets).
+- **Emotion Categories:**
+  - 🟢 **Happy**  
+  - 🔴 **Angry**  
+  - 🔵 **Sad**  
+  - ⚪ **Neutral**  
+- **Format:** CSV/JSON  
+  - Each record contains a text sample and its corresponding emotion label.
 
 ## Features
-- **Project Data Analysis:** Analyze project metrics like timelines, budgets, and resource allocation.
-- **Visualization:** Generate simple charts and reports.
-- **Customizable:** Modify analysis parameters based on your project needs.
+- **Pre-labeled Data:** Text samples are categorized into predefined emotion classes.
+- **Ready-to-Use:** Easily integrate the dataset into machine learning pipelines.
+- **Diverse Samples:** Includes a variety of text samples to ensure better model generalization.
 
-## Getting Started
